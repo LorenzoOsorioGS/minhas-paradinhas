@@ -1,0 +1,25 @@
+@charset "UTF-8"
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@font-face {
+    font-family:'Cloister';
+    src: url('../fontes/CloisterBlack.ttf') format("truetype");
+}
+
+root{
+--cor1: #0e7c7bff;
+--cor2: #17bebbff;
+--cor3: #d4f4ddff;
+--cor4: #d62246ff;
+--cor5: #4b1d3fff; 
+
+--fonte-destaque: 'Cloister', arial;
+--fonte-paragrafo: '"Playfair Display", serif';
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
