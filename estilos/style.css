@@ -5,6 +5,8 @@
 @font-face {
     font-family:'Cloister';
     src: url('../fontes/CloisterBlack.ttf') format("truetype");
+    font-weight: normal;
+    font-size: normal;
 }
 
 root{
@@ -22,4 +24,23 @@ root{
     margin: 0px;
     padding: 0px;
 }
+.L{
+    max-height: 50px;
+}
 
+header{
+    min-width: 20px;
+    background-color:var(--cor4);
+    margin: auto;
+    text-align: center;
+}
+
+header h1{
+    font-size: 40px;
+    padding: 20px;
+    font-family:var(--fonte-destaque);
+}
+
+header p{
+    font-size: 20px;
+}
