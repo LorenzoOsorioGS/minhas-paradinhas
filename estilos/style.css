@@ -1,12 +1,10 @@
 @charset "UTF-8"
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 @font-face {
-    font-family:'Cloister';
-    src: url('../fontes/CloisterBlack.ttf') format("truetype");
-    font-weight: normal;
-    font-size: normal;
+    font-family: Cloister;
+    src: url(../fontes/CloisterBlack.ttf) format(truetype);
 }
 
 root{
@@ -16,7 +14,7 @@ root{
 --cor4: #d62246ff;
 --cor5: #4b1d3fff; 
 
---fonte-destaque: 'Cloister', arial;
+--fonte-destaque: "Cloister", 'arial';
 --fonte-paragrafo: '"Playfair Display", serif';
 }
 
@@ -28,19 +26,50 @@ root{
     max-height: 50px;
 }
 
+body{
+background-color: var(--cor3);
+}
+
 header{
     min-width: 20px;
     background-color:var(--cor4);
     margin: auto;
     text-align: center;
+    background-color: red;
 }
 
 header h1{
-    font-size: 40px;
+    font-size: 70px;
     padding: 20px;
-    font-family:var(--fonte-destaque);
+    font-family: "Cloister", serif;
+    font-weight: bold;
 }
 
 header p{
-    font-size: 20px;
+    font-size: 33px;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav{
+    padding: 10px;
+    background-color: blue;
+    text-align: center;
+}
+
+nav a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background-color: skyblue;
+}
+
+main{
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
 }
