@@ -7,7 +7,7 @@
     src: url(../fontes/CloisterBlack.ttf) format(truetype);
 }
 
-root{
+:root{
 --cor1: #0e7c7bff;
 --cor2: #17bebbff;
 --cor3: #d4f4ddff;
@@ -72,4 +72,5 @@ main{
     max-width: 800px;
     min-width: 320px;
     margin: auto;
+    background-color: white;
 }
